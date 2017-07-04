@@ -23,8 +23,9 @@
   },
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "express": "^4.15.3",
     "socket.io": "^1.7.3",
+    "systeminformation": "^3.17.3",
     "websocket": "^1.0.24"
   }
 }
