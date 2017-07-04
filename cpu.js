@@ -44,7 +44,7 @@ si.mem(function(data) {
     console.log('cpu speed');
     console.log(data);
 });
-si.osInfo(function(data) {
-    console.log('memory usage');
-    console.log(data);
-});
+// si.osInfo(function(data) {
+//     console.log('memory usage');
+//     console.log(data);
+// });
