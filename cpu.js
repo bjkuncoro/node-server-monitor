@@ -4,21 +4,13 @@ var ostb = require( 'os-toolbox' );
 var monitor = require('os-monitor');
 var si = require('systeminformation');
 
-var pid = process.pid // you can use any valid PID instead
-var options = {keepHistory : true}
-usage.lookup(pid,options, function(err, result) {
-// console.log(os.cpus());
-});
-
-// console.log(ostb.uptime());
+setInterval(function(){
 ostb.cpuLoad().then(function(cpuusage){
    console.log("cpu :"+cpuusage+"%"); //ex: 34 (percent) 
 });
 
 ostb.memoryUsage().then(function(memusage){
    console.log("memori :"+memusage+"%"); //ex: 93 (percent) 
-}, function(error){
-    //errors here 
 });
 // var sort = { 
 //        type: 'cpu', 
@@ -48,3 +40,4 @@ si.mem(function(data) {
 //     console.log('memory usage');
 //     console.log(data);
 // });
+},1000);
