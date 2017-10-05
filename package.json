@@ -24,8 +24,15 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.3",
+    "fs-path": "0.0.23",
+    "log4js": "^2.3.3",
+    "mkdirp": "^0.5.1",
+    "node-datetime": "^2.0.3",
+    "os-toolbox": "^0.2.7",
     "socket.io": "^1.7.3",
     "systeminformation": "^3.17.3",
-    "websocket": "^1.0.24"
+    "tcp-ping": "^0.1.1",
+    "websocket": "^1.0.24",
+    "writefile": "^0.2.8"
   }
 }
