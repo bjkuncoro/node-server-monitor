@@ -43,8 +43,8 @@ io.on('connection', function (socket) {
     // var ping2 = new Monitor({website: 'http://203.24.50.67/prodi', interval: 0.05});
   var cpuusage;
   var memusage;
-  setInterval(function(){
-    tcpp.ping({ address: '203.24.50.67' }, function(err, data) {
+  var prime_monitor = setInterval(function(){
+    tcpp.ping({ address: '203.24.50.67',port :81 }, function(err, data) {
       console.log(data);     
       if(data.max == undefined){
         console.log("host mampos");
@@ -59,7 +59,7 @@ io.on('connection', function (socket) {
           console.log("memori :"+memusage+"%");
           socket.emit('data_mem', { mem :memusage,loadavg:os.loadavg() });
         }); 
-        logger.error({cpu :cpuusage,mem :memusage,loadavg:os.loadavg()});                
+        // logger.error({cpu :cpuusage,mem :memusage,loadavg:os.loadavg()});                
       }else{
         console.log("host nyala");
         socket.emit('data_status', { pesan : 1 });        
@@ -136,6 +136,7 @@ io.on('connection', function (socket) {
   });
   socket.on('disconnect',function(){
     console.log('You SUck!!');
+    clearInterval(prime_monitor);
     // ping2.stop();
   });
 });

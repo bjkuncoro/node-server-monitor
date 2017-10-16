@@ -1,20 +1,20 @@
 {
 	"general": {
-		"start_date": "04/Oct/2017",
-		"end_date": "04/Oct/2017",
-		"date_time": "2017-10-04 13:28:21 +0700",
-		"total_requests": 25,
-		"valid_requests": 25,
+		"start_date": "11/Oct/2017",
+		"end_date": "11/Oct/2017",
+		"date_time": "2017-10-11 12:13:28 +0700",
+		"total_requests": 19,
+		"valid_requests": 19,
 		"failed_requests": 0,
-		"generation_time": 1,
+		"generation_time": 0,
 		"unique_visitors": 1,
 		"unique_files": 1,
 		"excluded_hits": 0,
 		"unique_referrers": 0,
 		"unique_not_found": 7,
 		"unique_static_files": 0,
-		"log_size": 4828,
-		"bandwidth": 44305,
+		"log_size": 3399,
+		"bandwidth": 17815,
 		"log_path": [
 			"\/var\/log\/nginx\/access.log"
 		]
@@ -22,9 +22,9 @@
 	"visitors": {
 		"metadata": {
 			"bytes": {
-				"count": 44305,
-				"max": 44305,
-				"min": 44305
+				"count": 17815,
+				"max": 17815,
+				"min": 17815
 			},
 			"visitors": {
 				"count": 1,
@@ -32,9 +32,9 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 25,
-				"max": 25,
-				"min": 25
+				"count": 19,
+				"max": 19,
+				"min": 19
 			},
 			"data": {
 				"unique": 1
@@ -43,7 +43,7 @@
 		"data": [
 			{
 				"hits": {
-					"count": 25,
+					"count": 19,
 					"percent": 100.00
 				},
 				"visitors": {
@@ -51,19 +51,19 @@
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 44305,
+					"count": 17815,
 					"percent": 100.00
 				},
-				"data": "20171004"
+				"data": "20171011"
 			}
 		]
 	},
 	"requests": {
 		"metadata": {
 			"bytes": {
-				"count": 42794,
-				"max": 42794,
-				"min": 42794
+				"count": 15970,
+				"max": 15970,
+				"min": 15970
 			},
 			"visitors": {
 				"count": 1,
@@ -71,9 +71,9 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 15,
-				"max": 15,
-				"min": 15
+				"count": 8,
+				"max": 8,
+				"min": 8
 			},
 			"data": {
 				"unique": 1
@@ -82,7 +82,7 @@
 		"data": [
 			{
 				"hits": {
-					"count": 15,
+					"count": 8,
 					"percent": 100.00
 				},
 				"visitors": {
@@ -90,7 +90,7 @@
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 42794,
+					"count": 15970,
 					"percent": 100.00
 				},
 				"method": "GET",
@@ -127,9 +127,9 @@
 	"not_found": {
 		"metadata": {
 			"bytes": {
-				"count": 1511,
-				"max": 447,
-				"min": 148
+				"count": 1845,
+				"max": 556,
+				"min": 187
 			},
 			"visitors": {
 				"count": 0,
@@ -137,8 +137,8 @@
 				"min": 0
 			},
 			"hits": {
-				"count": 10,
-				"max": 3,
+				"count": 11,
+				"max": 4,
 				"min": 1
 			},
 			"data": {
@@ -148,33 +148,16 @@
 		"data": [
 			{
 				"hits": {
-					"count": 3,
-					"percent": 30.00
+					"count": 4,
+					"percent": 36.36
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 447,
-					"percent": 29.58
-				},
-				"method": "GET",
-				"protocol": "HTTP/1.1",
-				"data": "\/robots.txt"
-			},
-			{
-				"hits": {
-					"count": 2,
-					"percent": 20.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 278,
-					"percent": 18.40
+					"count": 556,
+					"percent": 30.14
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
@@ -182,16 +165,16 @@
 			},
 			{
 				"hits": {
-					"count": 1,
-					"percent": 10.00
+					"count": 2,
+					"percent": 18.18
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 148,
-					"percent": 9.79
+					"count": 296,
+					"percent": 16.04
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
@@ -200,78 +183,95 @@
 			{
 				"hits": {
 					"count": 1,
-					"percent": 10.00
+					"percent": 9.09
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 157,
-					"percent": 10.39
+					"count": 197,
+					"percent": 10.68
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
-				"data": "\/manual\/da\/mod\/worker.html"
+				"data": "\/website_prodi\/wp-content\/uploads\/2016\/10\/networking-1-e1475735048884.png"
 			},
 			{
 				"hits": {
 					"count": 1,
-					"percent": 10.00
+					"percent": 9.09
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 167,
-					"percent": 11.05
+					"count": 214,
+					"percent": 11.60
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
-				"data": "\/unisharp\/vendor\/unisharp\/laravel-filemanager\/"
+				"data": "\/website_prodi\/wp-content\/uploads\/2016\/09\/MOBILE_APPS_DEVELOPMENT-512-e1475734176609.png"
 			},
 			{
 				"hits": {
 					"count": 1,
-					"percent": 10.00
+					"percent": 9.09
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 157,
-					"percent": 10.39
+					"count": 203,
+					"percent": 11.00
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
-				"data": "\/manual\/es\/mod\/mod_so.html"
+				"data": "\/website_prodi\/wp-content\/uploads\/2016\/09\/Embedded-System-icon-e1475734162709.png"
 			},
 			{
 				"hits": {
 					"count": 1,
-					"percent": 10.00
+					"percent": 9.09
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 157,
-					"percent": 10.39
+					"count": 192,
+					"percent": 10.41
 				},
 				"method": "GET",
 				"protocol": "HTTP/1.1",
-				"data": "\/manual\/da\/mod\/mod_so.html"
+				"data": "\/website_prodi\/wp-content\/uploads\/2016\/09\/vismisiskom-Recovered.jpg"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 9.09
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 187,
+					"percent": 10.14
+				},
+				"method": "GET",
+				"protocol": "HTTP/1.1",
+				"data": "\/website_prodi\/wp-content\/uploads\/2016\/09\/parallax_image3.png"
 			}
 		]
 	},
 	"hosts": {
 		"metadata": {
 			"bytes": {
-				"count": 44305,
-				"max": 43240,
+				"count": 17815,
+				"max": 17676,
 				"min": 139
 			},
 			"visitors": {
@@ -280,99 +280,40 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 25,
+				"count": 19,
 				"max": 18,
 				"min": 1
 			},
 			"data": {
-				"unique": 8
+				"unique": 2
 			}
 		},
 		"data": [
 			{
 				"hits": {
 					"count": 18,
-					"percent": 72.00
+					"percent": 94.74
 				},
 				"visitors": {
 					"count": 1,
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 43240,
-					"percent": 97.60
+					"count": 17676,
+					"percent": 99.22
 				},
 				"data": "203.24.50.231",
 				"country": "ID Indonesia",
 				"hostname": "Name or service not known",
 				"items": [
-					"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/61.0.3163.100 Safari\/537.36"
+					"Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0",
+					"Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:56.0) Gecko\/20100101 Firefox\/56.0"
 				]
 			},
 			{
 				"hits": {
 					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 149,
-					"percent": 0.34
-				},
-				"data": "66.249.79.70",
-				"country": "US United States",
-				"hostname": "crawl-66-249-79-70.googlebot.com",
-				"items": [
-					"Mozilla\/5.0 (compatible; Googlebot\/2.1;  http:\/\/www.google.com\/bot.html)"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 157,
-					"percent": 0.35
-				},
-				"data": "66.249.71.16",
-				"country": "US United States",
-				"hostname": "crawl-66-249-71-16.googlebot.com",
-				"items": [
-					"Mozilla\/5.0 (compatible; Googlebot\/2.1;  http:\/\/www.google.com\/bot.html)"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 167,
-					"percent": 0.38
-				},
-				"data": "66.249.71.15",
-				"country": "US United States",
-				"hostname": "crawl-66-249-71-15.googlebot.com",
-				"items": [
-					"Mozilla\/5.0 (compatible; Googlebot\/2.1;  http:\/\/www.google.com\/bot.html)"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
+					"percent": 5.26
 				},
 				"visitors": {
 					"count": 0,
@@ -380,73 +321,13 @@
 				},
 				"bytes": {
 					"count": 139,
-					"percent": 0.31
+					"percent": 0.78
 				},
-				"data": "157.52.157.162",
-				"country": "ID Indonesia",
-				"hostname": "Name or service not known",
+				"data": "139.162.66.65",
+				"country": "NL Netherlands",
+				"hostname": "scan-39.security.ipip.net",
 				"items": [
-					"Mozilla\/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident\/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 157,
-					"percent": 0.35
-				},
-				"data": "66.249.71.26",
-				"country": "US United States",
-				"hostname": "crawl-66-249-71-26.googlebot.com",
-				"items": [
-					"Mozilla\/5.0 (compatible; Googlebot\/2.1;  http:\/\/www.google.com\/bot.html)"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 139,
-					"percent": 0.31
-				},
-				"data": "77.72.83.233",
-				"country": "RU Russian Federation",
-				"hostname": "Name or service not known",
-				"items": [
-					"Mozilla"
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 157,
-					"percent": 0.35
-				},
-				"data": "66.249.79.72",
-				"country": "US United States",
-				"hostname": "crawl-66-249-79-72.googlebot.com",
-				"items": [
-					"Mozilla\/5.0 (compatible; Googlebot\/2.1;  http:\/\/www.google.com\/bot.html)"
+					"Mozilla\/5.0"
 				]
 			}
 		]
@@ -454,8 +335,8 @@
 	"os": {
 		"metadata": {
 			"bytes": {
-				"count": 44305,
-				"max": 43240,
+				"count": 17815,
+				"max": 16683,
 				"min": 139
 			},
 			"visitors": {
@@ -464,57 +345,74 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 25,
-				"max": 18,
+				"count": 19,
+				"max": 13,
 				"min": 1
 			},
 			"data": {
-				"unique": 4
+				"unique": 3
 			}
 		},
 		"data": [
 			{
 				"hits": {
-					"count": 19,
-					"percent": 76.00
+					"count": 13,
+					"percent": 68.42
 				},
 				"visitors": {
 					"count": 1,
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 43379,
-					"percent": 97.91
+					"count": 16683,
+					"percent": 93.65
 				},
-				"data": "Windows",
+				"data": "Linux",
 				"items": [
 					{
 						"hits": {
-							"count": 18,
-							"percent": 72.00
+							"count": 13,
+							"percent": 68.42
 						},
 						"visitors": {
 							"count": 1,
 							"percent": 100.00
 						},
 						"bytes": {
-							"count": 43240,
-							"percent": 97.60
+							"count": 16683,
+							"percent": 93.65
 						},
-						"data": "Windows 10"
-					},
+						"data": "Ubuntu"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 5,
+					"percent": 26.32
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 993,
+					"percent": 5.57
+				},
+				"data": "Windows",
+				"items": [
 					{
 						"hits": {
-							"count": 1,
-							"percent": 4.00
+							"count": 5,
+							"percent": 26.32
 						},
 						"visitors": {
 							"count": 0,
 							"percent": 0.00
 						},
 						"bytes": {
-							"count": 139,
-							"percent": 0.31
+							"count": 993,
+							"percent": 5.57
 						},
 						"data": "Windows 7"
 					}
@@ -522,40 +420,8 @@
 			},
 			{
 				"hits": {
-					"count": 5,
-					"percent": 20.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 787,
-					"percent": 1.78
-				},
-				"data": "Unix-like",
-				"items": [
-					{
-						"hits": {
-							"count": 5,
-							"percent": 20.00
-						},
-						"visitors": {
-							"count": 0,
-							"percent": 0.00
-						},
-						"bytes": {
-							"count": 787,
-							"percent": 1.78
-						},
-						"data": "Googlebot\/2.1"
-					}
-				]
-			},
-			{
-				"hits": {
 					"count": 1,
-					"percent": 4.00
+					"percent": 5.26
 				},
 				"visitors": {
 					"count": 0,
@@ -563,14 +429,14 @@
 				},
 				"bytes": {
 					"count": 139,
-					"percent": 0.31
+					"percent": 0.78
 				},
 				"data": "Unknown",
 				"items": [
 					{
 						"hits": {
 							"count": 1,
-							"percent": 4.00
+							"percent": 5.26
 						},
 						"visitors": {
 							"count": 0,
@@ -578,7 +444,7 @@
 						},
 						"bytes": {
 							"count": 139,
-							"percent": 0.31
+							"percent": 0.78
 						},
 						"data": "Unknown"
 					}
@@ -589,8 +455,8 @@
 	"browsers": {
 		"metadata": {
 			"bytes": {
-				"count": 44305,
-				"max": 43240,
+				"count": 17815,
+				"max": 17676,
 				"min": 139
 			},
 			"visitors": {
@@ -599,284 +465,9 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 25,
+				"count": 19,
 				"max": 18,
 				"min": 1
-			},
-			"data": {
-				"unique": 4
-			}
-		},
-		"data": [
-			{
-				"hits": {
-					"count": 18,
-					"percent": 72.00
-				},
-				"visitors": {
-					"count": 1,
-					"percent": 100.00
-				},
-				"bytes": {
-					"count": 43240,
-					"percent": 97.60
-				},
-				"data": "Chrome",
-				"items": [
-					{
-						"hits": {
-							"count": 18,
-							"percent": 72.00
-						},
-						"visitors": {
-							"count": 1,
-							"percent": 100.00
-						},
-						"bytes": {
-							"count": 43240,
-							"percent": 97.60
-						},
-						"data": "Chrome\/61.0.3163.100"
-					}
-				]
-			},
-			{
-				"hits": {
-					"count": 5,
-					"percent": 20.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 787,
-					"percent": 1.78
-				},
-				"data": "Crawlers",
-				"items": [
-					{
-						"hits": {
-							"count": 5,
-							"percent": 20.00
-						},
-						"visitors": {
-							"count": 0,
-							"percent": 0.00
-						},
-						"bytes": {
-							"count": 787,
-							"percent": 1.78
-						},
-						"data": "Googlebot\/2.1"
-					}
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 139,
-					"percent": 0.31
-				},
-				"data": "MSIE",
-				"items": [
-					{
-						"hits": {
-							"count": 1,
-							"percent": 4.00
-						},
-						"visitors": {
-							"count": 0,
-							"percent": 0.00
-						},
-						"bytes": {
-							"count": 139,
-							"percent": 0.31
-						},
-						"data": "MSIE\/8.0"
-					}
-				]
-			},
-			{
-				"hits": {
-					"count": 1,
-					"percent": 4.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 139,
-					"percent": 0.31
-				},
-				"data": "Others",
-				"items": [
-					{
-						"hits": {
-							"count": 1,
-							"percent": 4.00
-						},
-						"visitors": {
-							"count": 0,
-							"percent": 0.00
-						},
-						"bytes": {
-							"count": 139,
-							"percent": 0.31
-						},
-						"data": "Mozilla"
-					}
-				]
-			}
-		]
-	},
-	"visit_time": {
-		"metadata": {
-			"bytes": {
-				"count": 44305,
-				"max": 43240,
-				"min": 296
-			},
-			"visitors": {
-				"count": 1,
-				"max": 1,
-				"min": 1
-			},
-			"hits": {
-				"count": 25,
-				"max": 18,
-				"min": 2
-			},
-			"data": {
-				"unique": 4
-			}
-		},
-		"data": [
-			{
-				"hits": {
-					"count": 18,
-					"percent": 72.00
-				},
-				"visitors": {
-					"count": 1,
-					"percent": 100.00
-				},
-				"bytes": {
-					"count": 43240,
-					"percent": 97.60
-				},
-				"data": "09"
-			},
-			{
-				"hits": {
-					"count": 3,
-					"percent": 12.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 473,
-					"percent": 1.07
-				},
-				"data": "10"
-			},
-			{
-				"hits": {
-					"count": 2,
-					"percent": 8.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 296,
-					"percent": 0.67
-				},
-				"data": "11"
-			},
-			{
-				"hits": {
-					"count": 2,
-					"percent": 8.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 296,
-					"percent": 0.67
-				},
-				"data": "12"
-			}
-		]
-	},
-	"referring_sites": {
-		"metadata": {
-			"bytes": {
-				"count": 148,
-				"max": 148,
-				"min": 148
-			},
-			"visitors": {
-				"count": 0,
-				"max": 0,
-				"min": 0
-			},
-			"hits": {
-				"count": 1,
-				"max": 1,
-				"min": 1
-			},
-			"data": {
-				"unique": 1
-			}
-		},
-		"data": [
-			{
-				"hits": {
-					"count": 1,
-					"percent": 100.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 148,
-					"percent": 100.00
-				},
-				"data": "203.24.50.67"
-			}
-		]
-	},
-	"status_codes": {
-		"metadata": {
-			"bytes": {
-				"count": 44305,
-				"max": 42794,
-				"min": 1511
-			},
-			"visitors": {
-				"count": 1,
-				"max": 1,
-				"min": 1
-			},
-			"hits": {
-				"count": 25,
-				"max": 15,
-				"min": 10
 			},
 			"data": {
 				"unique": 2
@@ -885,76 +476,76 @@
 		"data": [
 			{
 				"hits": {
-					"count": 15,
-					"percent": 60.00
+					"count": 18,
+					"percent": 94.74
 				},
 				"visitors": {
 					"count": 1,
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 42794,
-					"percent": 96.59
+					"count": 17676,
+					"percent": 99.22
 				},
-				"data": "2xx Success",
+				"data": "Firefox",
 				"items": [
 					{
 						"hits": {
-							"count": 15,
-							"percent": 60.00
+							"count": 18,
+							"percent": 94.74
 						},
 						"visitors": {
 							"count": 1,
 							"percent": 100.00
 						},
 						"bytes": {
-							"count": 42794,
-							"percent": 96.59
+							"count": 17676,
+							"percent": 99.22
 						},
-						"data": "200 - OK: The request sent by the client was successful"
+						"data": "Firefox\/56.0"
 					}
 				]
 			},
 			{
 				"hits": {
-					"count": 10,
-					"percent": 40.00
+					"count": 1,
+					"percent": 5.26
 				},
 				"visitors": {
 					"count": 0,
 					"percent": 0.00
 				},
 				"bytes": {
-					"count": 1511,
-					"percent": 3.41
+					"count": 139,
+					"percent": 0.78
 				},
-				"data": "4xx Client Error",
+				"data": "Others",
 				"items": [
 					{
 						"hits": {
-							"count": 10,
-							"percent": 40.00
+							"count": 1,
+							"percent": 5.26
 						},
 						"visitors": {
 							"count": 0,
 							"percent": 0.00
 						},
 						"bytes": {
-							"count": 1511,
-							"percent": 3.41
+							"count": 139,
+							"percent": 0.78
 						},
-						"data": "404 - Not Found: Requested resource could not be found"
+						"data": "Mozilla\/5.0"
 					}
 				]
 			}
 		]
 	},
-	"geolocation": {
+	"visit_time": {
 		"metadata": {
 			"bytes": {
-				"count": 44305,
-				"max": 43379,
-				"min": 139
+				"count": 17815,
+				"max": 17815,
+				"min": 17815
 			},
 			"visitors": {
 				"count": 1,
@@ -962,8 +553,86 @@
 				"min": 1
 			},
 			"hits": {
-				"count": 25,
+				"count": 19,
 				"max": 19,
+				"min": 19
+			},
+			"data": {
+				"unique": 1
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 19,
+					"percent": 100.00
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 100.00
+				},
+				"bytes": {
+					"count": 17815,
+					"percent": 100.00
+				},
+				"data": "11"
+			}
+		]
+	},
+	"referring_sites": {
+		"metadata": {
+			"bytes": {
+				"count": 993,
+				"max": 993,
+				"min": 993
+			},
+			"visitors": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"hits": {
+				"count": 5,
+				"max": 5,
+				"min": 5
+			},
+			"data": {
+				"unique": 1
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 5,
+					"percent": 100.00
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 993,
+					"percent": 100.00
+				},
+				"data": "mil.untan.ac.id"
+			}
+		]
+	},
+	"status_codes": {
+		"metadata": {
+			"bytes": {
+				"count": 17815,
+				"max": 15970,
+				"min": 0
+			},
+			"visitors": {
+				"count": 2,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 19,
+				"max": 11,
 				"min": 1
 			},
 			"data": {
@@ -973,31 +642,151 @@
 		"data": [
 			{
 				"hits": {
-					"count": 19,
-					"percent": 76.00
+					"count": 11,
+					"percent": 57.89
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 1845,
+					"percent": 10.36
+				},
+				"data": "4xx Client Error",
+				"items": [
+					{
+						"hits": {
+							"count": 11,
+							"percent": 57.89
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 1845,
+							"percent": 10.36
+						},
+						"data": "404 - Not Found: Requested resource could not be found"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 7,
+					"percent": 36.84
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 15970,
+					"percent": 89.64
+				},
+				"data": "2xx Success",
+				"items": [
+					{
+						"hits": {
+							"count": 7,
+							"percent": 36.84
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 15970,
+							"percent": 89.64
+						},
+						"data": "200 - OK: The request sent by the client was successful"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 5.26
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"data": "3xx Redirection",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 5.26
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"data": "304 - Not Modified: Resource has not been modified"
+					}
+				]
+			}
+		]
+	},
+	"geolocation": {
+		"metadata": {
+			"bytes": {
+				"count": 17815,
+				"max": 17676,
+				"min": 139
+			},
+			"visitors": {
+				"count": 1,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 19,
+				"max": 18,
+				"min": 1
+			},
+			"data": {
+				"unique": 2
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 18,
+					"percent": 94.74
 				},
 				"visitors": {
 					"count": 1,
 					"percent": 100.00
 				},
 				"bytes": {
-					"count": 43379,
-					"percent": 97.91
+					"count": 17676,
+					"percent": 99.22
 				},
 				"data": "AS Asia",
 				"items": [
 					{
 						"hits": {
-							"count": 19,
-							"percent": 76.00
+							"count": 18,
+							"percent": 94.74
 						},
 						"visitors": {
 							"count": 1,
 							"percent": 100.00
 						},
 						"bytes": {
-							"count": 43379,
-							"percent": 97.91
+							"count": 17676,
+							"percent": 99.22
 						},
 						"data": "ID Indonesia"
 					}
@@ -1005,40 +794,8 @@
 			},
 			{
 				"hits": {
-					"count": 5,
-					"percent": 20.00
-				},
-				"visitors": {
-					"count": 0,
-					"percent": 0.00
-				},
-				"bytes": {
-					"count": 787,
-					"percent": 1.78
-				},
-				"data": "NA North America",
-				"items": [
-					{
-						"hits": {
-							"count": 5,
-							"percent": 20.00
-						},
-						"visitors": {
-							"count": 0,
-							"percent": 0.00
-						},
-						"bytes": {
-							"count": 787,
-							"percent": 1.78
-						},
-						"data": "US United States"
-					}
-				]
-			},
-			{
-				"hits": {
 					"count": 1,
-					"percent": 4.00
+					"percent": 5.26
 				},
 				"visitors": {
 					"count": 0,
@@ -1046,14 +803,14 @@
 				},
 				"bytes": {
 					"count": 139,
-					"percent": 0.31
+					"percent": 0.78
 				},
 				"data": "EU Europe",
 				"items": [
 					{
 						"hits": {
 							"count": 1,
-							"percent": 4.00
+							"percent": 5.26
 						},
 						"visitors": {
 							"count": 0,
@@ -1061,9 +818,9 @@
 						},
 						"bytes": {
 							"count": 139,
-							"percent": 0.31
+							"percent": 0.78
 						},
-						"data": "RU Russian Federation"
+						"data": "NL Netherlands"
 					}
 				]
 			}
