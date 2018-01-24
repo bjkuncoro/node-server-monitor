@@ -17,8 +17,13 @@ app.use('/status', express.static(path.join(__dirname + '/public/status.html')))
 app.get('/logs/:tanggal/:hour', function(req, res) {
     var tanggal = req.params.tanggal;
     var hour    = req.params.hour;
-    var public  = __dirname + '/test/log/log '+tanggal+'';
+    var public  = __dirname + '/monitor/log/log '+tanggal+'';
     res.sendFile(path.join(public + '/log-server('+tanggal+' '+hour+').json'));
+});
+app.get('/backuplogs/:tanggal', function(req, res) {
+  var tanggal = req.params.tanggal;
+  var public  = __dirname + '/monitor/log/';
+  res.sendFile(path.join(public + '/laporan'+tanggal+'.json'));
 });
 
 

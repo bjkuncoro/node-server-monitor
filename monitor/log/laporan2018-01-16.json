@@ -1,0 +1,1292 @@
+{
+	"general": {
+		"start_date": "16/Jan/2018",
+		"end_date": "16/Jan/2018",
+		"date_time": "2018-01-16 23:58:59 +0700",
+		"total_requests": 26,
+		"valid_requests": 26,
+		"failed_requests": 0,
+		"generation_time": 0,
+		"unique_visitors": 2,
+		"unique_files": 1,
+		"excluded_hits": 0,
+		"unique_referrers": 0,
+		"unique_not_found": 3,
+		"unique_static_files": 0,
+		"log_size": 4953,
+		"bandwidth": 43772,
+		"log_path": [
+			"\/var\/log\/nginx\/access.log"
+		]
+	},
+	"visitors": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 43772,
+				"min": 43772
+			},
+			"visitors": {
+				"count": 2,
+				"max": 2,
+				"min": 2
+			},
+			"hits": {
+				"count": 26,
+				"max": 26,
+				"min": 26
+			},
+			"data": {
+				"unique": 1
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 26,
+					"percent": 100.00
+				},
+				"visitors": {
+					"count": 2,
+					"percent": 100.00
+				},
+				"bytes": {
+					"count": 43772,
+					"percent": 100.00
+				},
+				"data": "20180116"
+			}
+		]
+	},
+	"requests": {
+		"metadata": {
+			"bytes": {
+				"count": 41926,
+				"max": 41926,
+				"min": 41926
+			},
+			"visitors": {
+				"count": 2,
+				"max": 2,
+				"min": 2
+			},
+			"hits": {
+				"count": 13,
+				"max": 13,
+				"min": 13
+			},
+			"data": {
+				"unique": 1
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 13,
+					"percent": 100.00
+				},
+				"visitors": {
+					"count": 2,
+					"percent": 100.00
+				},
+				"bytes": {
+					"count": 41926,
+					"percent": 100.00
+				},
+				"method": "GET",
+				"protocol": "HTTP/1.1",
+				"data": "\/prodi"
+			}
+		]
+	},
+	"static_requests": {
+		"metadata": {
+			"bytes": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"visitors": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"hits": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"data": {
+				"unique": 0
+			}
+		},
+		"data": [
+
+		]
+	},
+	"not_found": {
+		"metadata": {
+			"bytes": {
+				"count": 1846,
+				"max": 1251,
+				"min": 148
+			},
+			"visitors": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"hits": {
+				"count": 13,
+				"max": 9,
+				"min": 1
+			},
+			"data": {
+				"unique": 3
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 9,
+					"percent": 69.23
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 1251,
+					"percent": 67.77
+				},
+				"method": "GET",
+				"protocol": "HTTP/1.1",
+				"data": "\/"
+			},
+			{
+				"hits": {
+					"count": 3,
+					"percent": 23.08
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 447,
+					"percent": 24.21
+				},
+				"method": "GET",
+				"protocol": "HTTP/1.1",
+				"data": "\/robots.txt"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 7.69
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 148,
+					"percent": 8.02
+				},
+				"method": "GET",
+				"protocol": "HTTP/1.1",
+				"data": "\/favicon.ico"
+			}
+		]
+	},
+	"hosts": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 40831,
+				"min": 139
+			},
+			"visitors": {
+				"count": 2,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 26,
+				"max": 16,
+				"min": 1
+			},
+			"data": {
+				"unique": 11
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 16,
+					"percent": 61.54
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 40831,
+					"percent": 93.28
+				},
+				"data": "203.24.50.231",
+				"country": "ID Indonesia",
+				"hostname": "Name or service not known",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/63.0.3239.132 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "125.227.1.46",
+				"country": "TW Taiwan",
+				"hostname": "125-227-1-46.HINET-IP.hinet.net",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/52.0.2743.116 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "175.138.184.234",
+				"country": "MY Malaysia",
+				"hostname": "Name or service not known",
+				"items": [
+					"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit\/601.7.7 (KHTML, like Gecko) Version\/9.1.2 Safari\/601.7.7"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "90.94.196.156",
+				"country": "FR France",
+				"hostname": "156.196.94.90.dynamic.jazztel.es",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/52.0.2743.116 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 1690,
+					"percent": 3.86
+				},
+				"data": "203.24.50.67",
+				"country": "ID Indonesia",
+				"hostname": "bagus.untan.ac.id",
+				"items": [
+					"Links (2.8; Linux 2.6.32-37-pve x86_64; GNU C 4.8.2; text)"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "79.181.124.241",
+				"country": "IL Israel",
+				"hostname": "bzq-79-181-124-241.red.bezeqint.net",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/51.0.2704.103 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "122.116.49.107",
+				"country": "TW Taiwan",
+				"hostname": "122-116-49-107.HINET-IP.hinet.net",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/52.0.2743.116 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "175.140.203.219",
+				"country": "MY Malaysia",
+				"hostname": "Name or service not known",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/51.0.2704.103 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "186.84.14.95",
+				"country": "CO Colombia",
+				"hostname": "dynamic-ip-186841495.cable.net.co",
+				"items": [
+					"Mozilla\/5.0 (Windows NT 10.0; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/51.0.2704.103 Safari\/537.36"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "36.102.208.93",
+				"country": "CN China",
+				"hostname": "Name or service not known",
+				"items": [
+					"Mozilla\/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "139.162.66.65",
+				"country": "NL Netherlands",
+				"hostname": "scan-39.security.ipip.net",
+				"items": [
+					"Mozilla\/5.0"
+				]
+			}
+		]
+	},
+	"os": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 41248,
+				"min": 139
+			},
+			"visitors": {
+				"count": 2,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 26,
+				"max": 19,
+				"min": 1
+			},
+			"data": {
+				"unique": 5
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 23,
+					"percent": 88.46
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 41804,
+					"percent": 95.50
+				},
+				"data": "Windows",
+				"items": [
+					{
+						"hits": {
+							"count": 19,
+							"percent": 73.08
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 41248,
+							"percent": 94.23
+						},
+						"data": "Windows 10"
+					},
+					{
+						"hits": {
+							"count": 4,
+							"percent": 15.38
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 556,
+							"percent": 1.27
+						},
+						"data": "Windows 7"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "Macintosh",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "OS X El Capitan"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 1690,
+					"percent": 3.86
+				},
+				"data": "Linux",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 1690,
+							"percent": 3.86
+						},
+						"data": "Linux"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "Unknown",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "Unknown"
+					}
+				]
+			}
+		]
+	},
+	"browsers": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 40831,
+				"min": 139
+			},
+			"visitors": {
+				"count": 2,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 26,
+				"max": 16,
+				"min": 1
+			},
+			"data": {
+				"unique": 7
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 22,
+					"percent": 84.62
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 41665,
+					"percent": 95.19
+				},
+				"data": "Chrome",
+				"items": [
+					{
+						"hits": {
+							"count": 16,
+							"percent": 61.54
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 40831,
+							"percent": 93.28
+						},
+						"data": "Chrome\/63.0.3239.132"
+					},
+					{
+						"hits": {
+							"count": 3,
+							"percent": 11.54
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 417,
+							"percent": 0.95
+						},
+						"data": "Chrome\/52.0.2743.116"
+					},
+					{
+						"hits": {
+							"count": 3,
+							"percent": 11.54
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 417,
+							"percent": 0.95
+						},
+						"data": "Chrome\/51.0.2704.103"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 2,
+					"percent": 7.69
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 50.00
+				},
+				"bytes": {
+					"count": 1829,
+					"percent": 4.18
+				},
+				"data": "Others",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 1,
+							"percent": 50.00
+						},
+						"bytes": {
+							"count": 1690,
+							"percent": 3.86
+						},
+						"data": "Links"
+					},
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "Mozilla\/5.0"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "Safari",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "Safari\/601.7.7"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "MSIE",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "MSIE\/9.0"
+					}
+				]
+			}
+		]
+	},
+	"visit_time": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 34890,
+				"min": 139
+			},
+			"visitors": {
+				"count": 3,
+				"max": 1,
+				"min": 1
+			},
+			"hits": {
+				"count": 26,
+				"max": 13,
+				"min": 1
+			},
+			"data": {
+				"unique": 9
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 5,
+					"percent": 19.23
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 33.33
+				},
+				"bytes": {
+					"count": 6219,
+					"percent": 14.21
+				},
+				"data": "10"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "11"
+			},
+			{
+				"hits": {
+					"count": 2,
+					"percent": 7.69
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 33.33
+				},
+				"bytes": {
+					"count": 1829,
+					"percent": 4.18
+				},
+				"data": "14"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "15"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "16"
+			},
+			{
+				"hits": {
+					"count": 13,
+					"percent": 50.00
+				},
+				"visitors": {
+					"count": 1,
+					"percent": 33.33
+				},
+				"bytes": {
+					"count": 34890,
+					"percent": 79.71
+				},
+				"data": "18"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "20"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "21"
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "22"
+			}
+		]
+	},
+	"referring_sites": {
+		"metadata": {
+			"bytes": {
+				"count": 287,
+				"max": 287,
+				"min": 287
+			},
+			"visitors": {
+				"count": 0,
+				"max": 0,
+				"min": 0
+			},
+			"hits": {
+				"count": 2,
+				"max": 2,
+				"min": 2
+			},
+			"data": {
+				"unique": 1
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 2,
+					"percent": 100.00
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 287,
+					"percent": 100.00
+				},
+				"data": "203.24.50.67:81"
+			}
+		]
+	},
+	"status_codes": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 41926,
+				"min": 1846
+			},
+			"visitors": {
+				"count": 2,
+				"max": 2,
+				"min": 2
+			},
+			"hits": {
+				"count": 26,
+				"max": 13,
+				"min": 13
+			},
+			"data": {
+				"unique": 2
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 13,
+					"percent": 50.00
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 1846,
+					"percent": 4.22
+				},
+				"data": "4xx Client Error",
+				"items": [
+					{
+						"hits": {
+							"count": 13,
+							"percent": 50.00
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 1846,
+							"percent": 4.22
+						},
+						"data": "404 - Not Found: Requested resource could not be found"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 13,
+					"percent": 50.00
+				},
+				"visitors": {
+					"count": 2,
+					"percent": 100.00
+				},
+				"bytes": {
+					"count": 41926,
+					"percent": 95.78
+				},
+				"data": "2xx Success",
+				"items": [
+					{
+						"hits": {
+							"count": 13,
+							"percent": 50.00
+						},
+						"visitors": {
+							"count": 2,
+							"percent": 100.00
+						},
+						"bytes": {
+							"count": 41926,
+							"percent": 95.78
+						},
+						"data": "200 - OK: The request sent by the client was successful"
+					}
+				]
+			}
+		]
+	},
+	"geolocation": {
+		"metadata": {
+			"bytes": {
+				"count": 43772,
+				"max": 42521,
+				"min": 139
+			},
+			"visitors": {
+				"count": 2,
+				"max": 2,
+				"min": 2
+			},
+			"hits": {
+				"count": 26,
+				"max": 17,
+				"min": 1
+			},
+			"data": {
+				"unique": 8
+			}
+		},
+		"data": [
+			{
+				"hits": {
+					"count": 23,
+					"percent": 88.46
+				},
+				"visitors": {
+					"count": 2,
+					"percent": 100.00
+				},
+				"bytes": {
+					"count": 43355,
+					"percent": 99.05
+				},
+				"data": "AS Asia",
+				"items": [
+					{
+						"hits": {
+							"count": 17,
+							"percent": 65.38
+						},
+						"visitors": {
+							"count": 2,
+							"percent": 100.00
+						},
+						"bytes": {
+							"count": 42521,
+							"percent": 97.14
+						},
+						"data": "ID Indonesia"
+					},
+					{
+						"hits": {
+							"count": 2,
+							"percent": 7.69
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 278,
+							"percent": 0.64
+						},
+						"data": "TW Taiwan"
+					},
+					{
+						"hits": {
+							"count": 2,
+							"percent": 7.69
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 278,
+							"percent": 0.64
+						},
+						"data": "MY Malaysia"
+					},
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "IL Israel"
+					},
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "CN China"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 2,
+					"percent": 7.69
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 278,
+					"percent": 0.64
+				},
+				"data": "EU Europe",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "FR France"
+					},
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "NL Netherlands"
+					}
+				]
+			},
+			{
+				"hits": {
+					"count": 1,
+					"percent": 3.85
+				},
+				"visitors": {
+					"count": 0,
+					"percent": 0.00
+				},
+				"bytes": {
+					"count": 139,
+					"percent": 0.32
+				},
+				"data": "SA South America",
+				"items": [
+					{
+						"hits": {
+							"count": 1,
+							"percent": 3.85
+						},
+						"visitors": {
+							"count": 0,
+							"percent": 0.00
+						},
+						"bytes": {
+							"count": 139,
+							"percent": 0.32
+						},
+						"data": "CO Colombia"
+					}
+				]
+			}
+		]
+	}
+
+}

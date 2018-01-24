@@ -67,6 +67,7 @@ io.on('connection', function (socket) {
         });
         ostb.memoryUsage().then(function(data){
                 memusage = data;
+                // console.log(os.platform());
                 console.log("memori :"+memusage+"%");
                 socket.emit('data_mem', { mem :memusage,loadavg:os.loadavg() });
                 
@@ -76,9 +77,16 @@ io.on('connection', function (socket) {
           console.log(data.tx_sec/1000+'kb');
           socket.emit('data_bandwidth', { rx :data.rx_sec/1000,tx:data.tx_sec/1000 });          
         });
+        si.osInfo(function(data){
+          // console.log(data);
+          // console.log(os.uptime()/3600);          
+          // console.log(os.cpus());  
+          console.log('Nahhhhh yang iniiiiii   '+os.uptime());        
+          socket.emit('os_info',{os_arch:os.cpus(),uptime:os.uptime()/3600,os_info:data,os_totalmem:os.totalmem(),host:os.networkInterfaces()})    
+        });
         var dt      = dateTime.create();
         var waktu   = dt.format('d-m-Y H:M:S');
-        var tanggal = dt.format('d-m-Y');
+        var tanggal = dt.format('Y-m-d');
         var hour    = dt.format('H');
         console.log(waktu);
         obj.logs.push({time:waktu,cpu :cpuusage,mem :memusage,loadavg:os.loadavg()});
